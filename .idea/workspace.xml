@@ -1,52 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2deecea-db88-4195-a8f2-931b757b1ef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPFController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPFController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPJController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPJController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/LancamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/LancamentoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/entities/Empresa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/entities/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/entities/Lancamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/enums/PerfilEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/enums/TipoEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/repositories/EmpresaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/repositories/FuncionarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/repositories/LancamentoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/security/JwtUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/security/JwtUserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/EmpresaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/EmpresaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/FuncionarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/FuncionarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/LancamentoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/LancamentoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/test/java/com/kazale/pontointeligente/api/services/EmpresaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/test/java/com/kazale/pontointeligente/api/services/EmpresaServiceTest.java" afterDir="false" />
+    <list default="true" id="b6b7e781-a6c2-407d-859b-841c03ea502e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Pos-graduacao-arquitetura-sistema-distribuido" />
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ProjectId" id="1V8Ioh44cPqY6YGgEeNgeTscwr5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="aprendeno-cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="aprendeno-cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aprendeno-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -55,12 +109,94 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2deecea-db88-4195-a8f2-931b757b1ef8" name="Default Changelist" comment="" />
-      <created>1576628471129</created>
+      <changelist id="b6b7e781-a6c2-407d-859b-841c03ea502e" name="Default Changelist" comment="" />
+      <created>1576629015997</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576628471129</updated>
+      <updated>1576629015997</updated>
+      <workItem from="1576629019681" duration="449000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="449000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cucumber.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
