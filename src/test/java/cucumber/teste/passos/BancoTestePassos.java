@@ -29,22 +29,19 @@ public class BancoTestePassos {
 
     @Entao("^o total de contas e (\\d+)$")
     public void o_total_de_contas_e(int totalContasEsperado) throws Throwable {
-        assertEquals("O cálculo do total de contas está incorreto",
-                totalContasEsperado, totalContas);
+        assertEquals("O cálculo do total de contas está incorreto", totalContasEsperado, totalContas);
     }
 
     @Dado("^o calculo do total de dinheiro$")
     public void o_calculo_do_total_de_dinheiro() throws Throwable {
-        totalDinheiro = banco.getListaDeContas().stream().mapToDouble
-                (c -> c.getSaldo()).sum();
+        totalDinheiro = banco.getListaDeContas().stream().mapToDouble(c -> c.getSaldo()).sum();
     }
 
     @Entao("^o total de dinheiro no banco e (\\d+)$")
     public void o_total_de_dinheiro_no_banco_e(Double totalDinheiroEsperado)
             throws Throwable {
 
-        assertEquals("O cálculo do total de dinheiro no banco " + banco.getNome()
-                        + " está incorreto",
+        assertEquals("O cálculo do total de dinheiro no banco " + banco.getNome() + " está incorreto",
                 totalDinheiroEsperado, totalDinheiro);
     }
 }
