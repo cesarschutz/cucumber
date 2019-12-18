@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6b7e781-a6c2-407d-859b-841c03ea502e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cucumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b6b7e781-a6c2-407d-859b-841c03ea502e" name="Default Changelist" comment="bancoTeste finalizada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumber/modelo/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cucumber/modelo/Banco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cucumber/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cucumber/modelo/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/teste/ContaTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/teste/ContaTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/teste/passos/ContaTestePassos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/teste/passos/ContaTestePassos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/teste/BancoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/teste/BancoTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/teste/passos/BancoTestePassos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/teste/passos/BancoTestePassos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -51,6 +53,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,9 +68,17 @@
       <recent name="C:\Users\cesar\Documents\GitHub\cucumber\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in cucumber">
+  <component name="RunManager" selected="JUnit.All in cucumber (1)">
     <configuration name="All in aprendeno-cucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aprendeno-cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in cucumber (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -82,8 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BancoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber.teste" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.teste.BancoTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in cucumber (1)" />
+        <item itemvalue="JUnit.BancoTeste" />
         <item itemvalue="JUnit.All in cucumber" />
         <item itemvalue="JUnit.All in aprendeno-cucumber" />
       </list>
@@ -156,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576631820924</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="contaTeste finalizada">
+      <created>1576673264726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576673264726</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -194,33 +229,52 @@
     <MESSAGE value="conta.feature" />
     <MESSAGE value="banco.feature" />
     <MESSAGE value="contaTeste" />
-    <option name="LAST_COMMIT_MESSAGE" value="contaTeste" />
+    <MESSAGE value="contaTeste finalizada" />
+    <MESSAGE value="bancoTeste finalizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="bancoTeste finalizada" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1857" y="64" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1576671529010">
+    <state x="1857" y="64" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1576673762638">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1857" y="64" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576671529010" />
+    <state x="1857" y="64" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673762638" />
     <state x="1890" y="269" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576671057643">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1890" y="269" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576671057643" />
-    <state width="1320" height="354" key="GridCell.Tab.0.bottom" timestamp="1576672890387">
+    <state x="1655" y="27" width="777" height="702" key="CommitChangelistDialog2" timestamp="1576675083376">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="354" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576672890387" />
-    <state width="1320" height="354" key="GridCell.Tab.0.center" timestamp="1576672890387">
+    <state x="1655" y="27" width="777" height="702" key="CommitChangelistDialog2/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673264514" />
+    <state x="1655" y="27" key="CommitChangelistDialog2/1366.0.1366.768/0.27.1366.708@1366.0.1366.768" timestamp="1576675083376" />
+    <state width="1320" height="30" key="GridCell.Tab.0.bottom" timestamp="1576675131427">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="354" key="GridCell.Tab.0.center/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576672890387" />
-    <state width="1320" height="354" key="GridCell.Tab.0.left" timestamp="1576672890386">
+    <state width="1320" height="56" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673776303" />
+    <state width="1320" height="30" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.27.1366.708@1366.0.1366.768" timestamp="1576675131427" />
+    <state width="1320" height="30" key="GridCell.Tab.0.center" timestamp="1576675131427">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="354" key="GridCell.Tab.0.left/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576672890386" />
-    <state width="1320" height="354" key="GridCell.Tab.0.right" timestamp="1576672890387">
+    <state width="1320" height="56" key="GridCell.Tab.0.center/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673776303" />
+    <state width="1320" height="30" key="GridCell.Tab.0.center/1366.0.1366.768/0.27.1366.708@1366.0.1366.768" timestamp="1576675131427" />
+    <state width="1320" height="30" key="GridCell.Tab.0.left" timestamp="1576675131427">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="354" key="GridCell.Tab.0.right/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576672890387" />
+    <state width="1320" height="56" key="GridCell.Tab.0.left/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673776303" />
+    <state width="1320" height="30" key="GridCell.Tab.0.left/1366.0.1366.768/0.27.1366.708@1366.0.1366.768" timestamp="1576675131427" />
+    <state width="1320" height="30" key="GridCell.Tab.0.right" timestamp="1576675131427">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="56" key="GridCell.Tab.0.right/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673776303" />
+    <state width="1320" height="30" key="GridCell.Tab.0.right/1366.0.1366.768/0.27.1366.708@1366.0.1366.768" timestamp="1576675131427" />
+    <state x="354" y="27" width="1002" height="730" key="SettingsEditor" timestamp="1576673545158">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="354" y="27" width="1002" height="730" key="SettingsEditor/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673545158" />
+    <state x="1644" y="113" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576673267554">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="113" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.27.1366.702@1366.0.1366.768" timestamp="1576673267554" />
     <state x="1705" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1576670752408">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>

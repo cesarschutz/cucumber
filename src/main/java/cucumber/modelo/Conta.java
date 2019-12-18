@@ -6,6 +6,9 @@ public class Conta {
     private Double saldo;
     private Integer numero;
 
+    public Conta() {
+    }
+
     public Conta(String dono, Integer numero, Double limite, Double saldo) {
         this.dono = dono;
         this.limite = limite;
