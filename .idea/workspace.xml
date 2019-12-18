@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2deecea-db88-4195-a8f2-931b757b1ef8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPFController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPFController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPJController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/CadastroPJController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/LancamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/controllers/LancamentoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/entities/Empresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/entities/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/entities/Lancamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/enums/PerfilEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/enums/TipoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/repositories/EmpresaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/repositories/FuncionarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/repositories/LancamentoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/security/JwtUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/security/JwtUserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/EmpresaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/EmpresaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/FuncionarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/FuncionarioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/LancamentoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/main/java/com/kazale/pontointeligente/api/services/impl/LancamentoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-spring-boot/src/test/java/com/kazale/pontointeligente/api/services/EmpresaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-spring-boot/src/test/java/com/kazale/pontointeligente/api/services/EmpresaServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Pos-graduacao-arquitetura-sistema-distribuido" />
+  </component>
+  <component name="ProjectId" id="1V8Ioh44cPqY6YGgEeNgeTscwr5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2deecea-db88-4195-a8f2-931b757b1ef8" name="Default Changelist" comment="" />
+      <created>1576628471129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576628471129</updated>
+    </task>
+    <servers />
+  </component>
+</project>
