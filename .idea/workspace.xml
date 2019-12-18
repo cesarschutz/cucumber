@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b6b7e781-a6c2-407d-859b-841c03ea502e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banco.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/caracteristicas/banco.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conta.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/caracteristicas/conta.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/modelo/ContaTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modelo/ContaTeste.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,16 +21,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conta.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/caracteristicas/conta.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+            <state relative-caret-position="198">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/banco.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/caracteristicas/banco.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
@@ -39,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/modelo/ContaTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,6 +75,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/conta.feature" />
         <option value="$PROJECT_DIR$/src/main/resources/banco.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/caracteristicas/conta.feature" />
         <option value="$PROJECT_DIR$/src/test/java/modelo/ContaTeste.java" />
       </list>
     </option>
@@ -149,6 +152,14 @@
               <item name="aprendeno-cucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="cucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="caracteristicas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendeno-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,6 +205,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cesar\Documents\GitHub\cucumber\src\main\resources\caracteristicas" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="modelo.passos" />
       <recent name="cucumber.modelo" />
@@ -215,6 +229,21 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="All in aprendeno-cucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aprendeno-cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in aprendeno-cucumber" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -226,7 +255,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576629015997</updated>
       <workItem from="1576629019681" duration="1725000" />
-      <workItem from="1576630798652" duration="997000" />
+      <workItem from="1576630798652" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="Criada as classes iniciais">
       <created>1576630089450</created>
@@ -263,11 +292,38 @@
       <option name="project" value="LOCAL" />
       <updated>1576631257542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="contaTeste">
+      <created>1576631820924</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576631820924</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_aprendeno-cucumber - 2019.12.17 at 23h 17m 56s.xml">
+      <configuration name="All in aprendeno-cucumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_aprendeno-cucumber - 2019.12.17 at 23h 19m 11s.xml">
+      <configuration name="All in aprendeno-cucumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_aprendeno-cucumber - 2019.12.17 at 23h 20m 11s.xml">
+      <configuration name="All in aprendeno-cucumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_aprendeno-cucumber - 2019.12.17 at 23h 21m 55s.xml">
+      <configuration name="All in aprendeno-cucumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_aprendeno-cucumber - 2019.12.17 at 23h 22m 08s.xml">
+      <configuration name="All in aprendeno-cucumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_aprendeno-cucumber - 2019.12.17 at 23h 24m 09s.xml">
+      <configuration name="All in aprendeno-cucumber" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2722000" />
+    <option name="totallyTimeSpent" value="3313000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -282,7 +338,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,7 +356,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -348,7 +404,8 @@
     <MESSAGE value="travis mardown" />
     <MESSAGE value="conta.feature" />
     <MESSAGE value="banco.feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="banco.feature" />
+    <MESSAGE value="contaTeste" />
+    <option name="LAST_COMMIT_MESSAGE" value="contaTeste" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cucumber.iml">
@@ -404,24 +461,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/banco.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/caracteristicas/banco.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conta.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/caracteristicas/conta.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        <state relative-caret-position="198">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/modelo/ContaTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

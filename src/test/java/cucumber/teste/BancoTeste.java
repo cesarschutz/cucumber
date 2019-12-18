@@ -1,4 +1,4 @@
-package modelo;
+package cucumber.teste;
 
 public class BancoTeste {
 }
