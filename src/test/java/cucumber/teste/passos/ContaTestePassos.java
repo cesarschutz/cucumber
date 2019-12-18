@@ -25,24 +25,24 @@ public class ContaTestePassos {
     // “^” e no final “$”: as duas expressões estabelecem o início e fim da leitura do Cucumber
     @Quando("^o dono realiza o deposito no valor de (\\d+) na conta$")
     public void o_dono_realiza_o_deposito_no_valor_de_na_conta(Double valorDeposito) throws Throwable {
-//        assertTrue("O dono " + conta.getDono() + " não tem limite disponível na conta para este valor de deposito",
-//                conta.depositar(valorDeposito));
+        assertTrue("O dono " + conta.getDono() + " não tem limite disponível na conta para este valor de deposito",
+                conta.depositar(valorDeposito));
     }
 
     //(\\d+) (extrai valor decimal), \"(.*?)\" (extrai qualquer valor string)
     // “^” e no final “$”: as duas expressões estabelecem o início e fim da leitura do Cucumber
     @E("^o dono realiza o primeiro saque no valor de (\\d+) na conta$")
     public void o_dono_realiza_o_primeiro_saque_no_valor_de_na_conta(Double valorSaque) throws Throwable {
-//        assertTrue("O dono " + conta.getDono() + " não tem saldo disponível na conta para este valor de saque",
-//                conta.sacar(valorSaque));
+        assertTrue("O dono " + conta.getDono() + " não tem saldo disponível na conta para este valor de saque",
+                conta.sacar(valorSaque));
     }
 
     //(\\d+) (extrai valor decimal), \"(.*?)\" (extrai qualquer valor string)
     // “^” e no final “$”: as duas expressões estabelecem o início e fim da leitura do Cucumber
     @E("^o dono realiza o segundo saque no valor de (\\d+) na conta$")
     public void o_dono_realiza_o_segundo_saque_no_valor_de_na_conta(Double valorSaque) throws Throwable {
-//        assertTrue("O dono " + conta.getDono() + " não tem saldo disponível na conta para este valor de saque",
-//                conta.sacar(valorSaque));
+        assertTrue("O dono " + conta.getDono() + " não tem saldo disponível na conta para este valor de saque",
+                conta.sacar(valorSaque));
     }
 
     //(\\d+) (extrai valor decimal), \"(.*?)\" (extrai qualquer valor string)

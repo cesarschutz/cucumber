@@ -2,22 +2,40 @@ package cucumber.modelo;
 
 public class Conta {
     private String dono;
-    private Double limite;
-    private Double saldo;
     private Integer numero;
+    private Double saldo;
+    private Double limite;
 
-    public Conta() {
-    }
-
-    public Conta(String dono, Integer numero, Double limite, Double saldo) {
+    public Conta(String dono, int numero, Double limite, Double saldo) {
         this.dono = dono;
-        this.limite = limite;
-        this.saldo = saldo;
         this.numero = numero;
+        this.saldo = saldo;
+        this.limite = limite;
     }
 
-    public void depositar(Double valorDepositado) {
-        this.saldo += valorDepositado;
+    public Conta() { }
+
+    public boolean sacar(Double valor) {
+        if (saldo <= valor) {
+            // Não pode sacar
+            return false;
+        } else {
+            // Pode sacar
+            saldo = saldo - valor;
+            return true;
+        }
+    }
+
+    public boolean depositar(Double quantidade) {
+
+        if (limite <= quantidade + saldo) {
+            // Não pode depositar
+            return false;
+        } else {
+            // Pode depositar
+            saldo += quantidade;
+            return true;
+        }
     }
 
     public String getDono() {
@@ -28,12 +46,12 @@ public class Conta {
         this.dono = dono;
     }
 
-    public Double getLimite() {
-        return limite;
+    public Integer getNumero() {
+        return numero;
     }
 
-    public void setLimite(Double limite) {
-        this.limite = limite;
+    public void setNumero(Integer numero) {
+        this.numero = numero;
     }
 
     public Double getSaldo() {
@@ -44,11 +62,11 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    public Integer getNumero() {
-        return numero;
+    public Double getLimite() {
+        return limite;
     }
 
-    public void setNumero(Integer numero) {
-        this.numero = numero;
+    public void setLimite(Double limite) {
+        this.limite = limite;
     }
 }
